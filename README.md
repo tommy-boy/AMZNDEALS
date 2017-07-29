@@ -24,10 +24,6 @@ AWS Product API using Ionic with TypeScript. It is still in development.
 **Note:** Is your build slow? Update `npm` to 3.x: `npm install -g npm`.
 
 
-## Contributing
-See [CONTRIBUTING.md](https://github.com/ionic-team/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) :tada::+1:
-
-
 ## Use Cases
 
 * Action Sheet - [ [template](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/speaker-list/speaker-list.html) | [code](https://github.com/ionic-team/ionic-conference-app/blob/master/src/pages/speaker-list/speaker-list.ts) ]
