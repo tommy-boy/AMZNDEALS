@@ -1,11 +1,7 @@
 <<<<<<< HEAD
-# Ionic Conference Application
+# Ionic AWS Application
 
-This is purely a demo of Ionic with TypeScript. It is still in development.
-
-
-## Important!
-**There is not an actual Ionic Conference at this time.** This project is just to show off Ionic components in a real-world application. Please go through the steps in [CONTRIBUTING.md](https://github.com/ionic-team/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) before submitting an issue.
+AWS Product API using Ionic with TypeScript. It is still in development.
 
 
 ## Table of Contents
@@ -18,7 +14,7 @@ This is purely a demo of Ionic with TypeScript. It is still in development.
 
 ## Getting Started
 
-* Clone this repository: `git clone https://github.com/ionic-team/ionic-conference-app.git`.
+* Clone this repository: `git clone https://github.com/tommy-boy/AMZNDEALS.git`.
 * Want to use TypeScript? Both the `master` branch and the `typescript` branch now use TypeScript.
 * Run `npm install` from the project root.
 * Install the ionic CLI (`npm install -g ionic`)
