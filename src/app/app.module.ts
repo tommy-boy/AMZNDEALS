@@ -9,14 +9,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { IonicStorageModule } from '@ionic/storage';
 
-import { ConferenceApp } from './app.component';
+import { AmznApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
 import { PopoverPage } from '../pages/about-popover/about-popover';
 import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
 import { MapPage } from '../pages/map/map';
-import { SchedulePage } from '../pages/schedule/schedule';
+import { CookWarePage } from '../pages/schedule/schedule';
 import { ScheduleFilterPage } from '../pages/schedule-filter/schedule-filter';
 import { SessionDetailPage } from '../pages/session-detail/session-detail';
 import { SignupPage } from '../pages/signup/signup';
@@ -28,17 +28,18 @@ import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
+import { AwsData } from '../providers/aws-data';
 
 
 @NgModule({
   declarations: [
-    ConferenceApp,
+    AmznApp,
     AboutPage,
     AccountPage,
     LoginPage,
     MapPage,
     PopoverPage,
-    SchedulePage,
+    CookWarePage,
     ScheduleFilterPage,
     SessionDetailPage,
     SignupPage,
@@ -51,10 +52,10 @@ import { UserData } from '../providers/user-data';
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(ConferenceApp, {}, {
+    IonicModule.forRoot(AmznApp, {}, {
       links: [
         { component: TabsPage, name: 'TabsPage', segment: 'tabs-page' },
-        { component: SchedulePage, name: 'Schedule', segment: 'schedule' },
+        { component: CookWarePage, name: 'Schedule', segment: 'schedule' },
         { component: SessionDetailPage, name: 'SessionDetail', segment: 'sessionDetail/:sessionId' },
         { component: ScheduleFilterPage, name: 'ScheduleFilter', segment: 'scheduleFilter' },
         { component: SpeakerListPage, name: 'SpeakerList', segment: 'speakerList' },
@@ -72,13 +73,13 @@ import { UserData } from '../providers/user-data';
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    ConferenceApp,
+    AmznApp,
     AboutPage,
     AccountPage,
     LoginPage,
     MapPage,
     PopoverPage,
-    SchedulePage,
+    CookWarePage,
     ScheduleFilterPage,
     SessionDetailPage,
     SignupPage,
@@ -92,6 +93,7 @@ import { UserData } from '../providers/user-data';
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     ConferenceData,
     UserData,
+    AwsData,
     InAppBrowser,
     SplashScreen
   ]
