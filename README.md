@@ -6,8 +6,6 @@ AWS Product API using Ionic with TypeScript. It is still in development.
 
 ## Table of Contents
  - [Getting Started](#getting-started)
- - [Contributing](#contributing)
- - [Use Cases](#use-cases)
  - [App Preview](#app-preview)
  - [File Structure of App](#file-structure-of-app)
 
@@ -48,7 +46,7 @@ AWS Product API using Ionic with TypeScript. It is still in development.
 
 ## App Preview
 
-[Try it live](https://ionic-team.github.io/ionic-conference-app/www)
+[Try it live](http://amzndeals.azurewebsites.net/)
 
 All app preview screenshots were taken by running `ionic serve --lab` on a retina display.
 
@@ -67,7 +65,7 @@ All app preview screenshots were taken by running `ionic serve --lab` on a retin
 
 ## Deploying
 
-* PWA - Un-comment [this](https://github.com/ionic-team/ionic2-app-base/blob/master/src/index.html#L17), run `npm run ionic:build --prod` and then push the `www` folder to your favorite hosting service
+* PWA - run `npm run ionic:build --prod` and then push the `www` folder to your favorite hosting service
 * Android - Run `ionic cordova run android --prod`
 * iOS - Run `ionic cordova run ios --prod`
 
@@ -76,8 +74,7 @@ All app preview screenshots were taken by running `ionic serve --lab` on a retin
 ```
 ionic-conference-app/
 ├-- .github/                            * GitHub files
-│   ├── CONTRIBUTING.md                 * Documentation on contributing to this repo
-│   └── ISSUE_TEMPLATE.md               * Template used to populate issues in this repo
+│   ├── ISSUE_TEMPLATE.md               * Template used to populate issues in this repo
 |
 |-- resources/
 |
