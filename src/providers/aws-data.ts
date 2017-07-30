@@ -13,46 +13,7 @@ export class AwsData {
     //private awsCredentials;
 
     constructor(public platform: Platform, public http: Http) {
-
-        //http.createServer(function (request, response) {
-        //    response.writeHead(200, {
-        //        'Content-Type': 'text/plain',
-        //        'Access-Control-Allow-Origin': '*',
-        //        'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE'
-        //    });
-        //    response.end('Hello World\n');
-        //}).listen(4400);
-
-        //let headers = new Headers;
-        //headers.append('Content-Type', 'application/xml');
-        //headers.append('Access-Control-Allow-Origin', '*');
-        //let text = "";
-        //this.awsCredentials = {
-        //    associateTag: 'ppster-20',
-        //    accessKeyId: 'AKIAIWCDBJ4ZLYJUXUOA',
-        //    secretAccessKey: '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'
-        //};
     }
-
-    //load() {
-    //    if (this.items) {
-    //        // already loaded data
-    //        return Promise.resolve(this.items);
-    //    }
-    //    // don't have the data yet
-    //    return new Promise(resolve => {
-    //        //Using Angular HTTP provider to request the data,
-    //        // then on the response, it'll map the JSON data to a parsed JS object.
-    //        // Next, we process the data and resolve the promise with the new data.          
-    //        this.http.get('https://randomuser.me/api/?results=10')
-    //            .map(res => res.json())
-    //            .subscribe(data => {
-    //                this.items = data.results;
-    //                resolve(this.items);
-    //            });
-    //        console.log(this.items);
-    //    });
-    //}
 
     loadProducts() {    
                
