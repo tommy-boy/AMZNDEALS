@@ -19,7 +19,7 @@ export class AwsData {
                
         const opHelper = new OperationHelper({
             awsId: 'AKIAIWCDBJ4ZLYJUXUOA',
-            awsSecret: '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',
+            awsSecret: '',
             assocId: 'ppster-20',
             maxRequestsPerSecond: 1
             // xml2jsOptions: an extra, optional, parameter for if you want to pass additional options for the xml2js module. (see https://github.com/Leonidas-from-XIV/node-xml2js#options)
